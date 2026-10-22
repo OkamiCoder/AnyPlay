@@ -7,7 +7,7 @@
 **AnyPlay** is a modern, lightweight, and visually stunning client-side web audio player. Built using **Vanilla JavaScript (ES6+)**, **HTML5 Media API**, and **Tailwind CSS**, it features a fully custom glassmorphism design with immersive "aurora" background animations. 
 
 The application operates entirely within the user's browser, eliminating the need for a dedicated backend database while providing persistent data saving.
-(Live site)[https://okamicoder.github.io/AnyPlay/]
+[https://okamicoder.github.io/AnyPlay]
 
 ---
 
