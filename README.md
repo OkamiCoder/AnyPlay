@@ -58,7 +58,7 @@ Because **AnyPlay** relies completely on sandbox client technologies, **no serve
    ```bash
    cd AnyPlay
    ```
-3. **Launch the player:**
+3. **Launch the music player:**
    Open `index.html` directly in any web browser, or serve it securely with the **Live Server** extension in Visual Studio Code.
 
 ---
