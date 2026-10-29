@@ -1,4 +1,4 @@
-# 🎵 AnyPlay — Premium Client-Side Web Music Player
+# 🎵 AnyPlay - Premium Client-Side Web Music Player
 
 <p>
   <img src="./assets/banner.png" alt="project banner" width="100%">
