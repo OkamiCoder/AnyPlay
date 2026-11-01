@@ -41,7 +41,7 @@ The application operates entirely within the user's browser, eliminating the nee
 ## 🚀 How It Works (Deep Dive)
 
 1. **Smart Splitting:** When you drag or upload audio tracks via the `HTML5 File API`, the script checks the physical file size. If a file is under **12MB**, it reads it using an asynchronous `FileReader()` into a persistent string. If it's larger, it uses a temporal memory snapshot via `URL.createObjectURL(file)`.
-2. **Metadata Separation:** The engine automatically analyzes filenames. If it detects a hyphen (`Artist - TrackTitle`), it auto-assigns values; otherwise, it cleanly strips the extension and populates fallback strings.
+2. **Metadata Separation:** The engine automatically analyzes file name. If it detects a hyphen (`Artist - TrackTitle`), it auto-assigns values; otherwise, it cleanly strips the extension and populates fallback strings.
 3. **Fluid Layout Synchronization:** State loops monitor native audio nodes via event loops like `timeupdate`, `loadedmetadata`, and `ended`. This locks custom sliders, fills, timers, and the dynamic SVG visualization board precisely to the millimeter without relying on heavy external animation frameworks.
 
 ---
